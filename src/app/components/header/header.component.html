@@ -1,4 +1,23 @@
-<nav>
+<nav class="menuFull" *ngIf="isFullMenu" [@inOutAnimation]>
+    <ul>
+        <li i18n>
+            <a href="#first">Início</a>
+
+        </li>
+        <li i18n>
+            <a href="#about">Sobre mim</a>
+        </li>
+        <li i18n>
+            <a href="#projects">Projetos</a>
+        </li>
+        <li i18n>
+            <a href="#contact">Contato</a>
+        </li>
+    </ul>
+
+</nav>
+
+<nav class="menuComp" *ngIf="!isFullMenu" [@inOutAnimation]>
     <a class="menu" (click)="clickMenu()">
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8 24.5H42" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -6,19 +25,19 @@
         </svg>
 
     </a>
-    <ul *ngIf="menuOpen">
+    <ul [@toggleClick]="menuOpen">
         <li i18n>
-            <a>Início</a>
+            <a href="#first">Início</a>
 
         </li>
         <li i18n>
-            <a>Sobre mim</a>
+            <a href="#about">Sobre mim</a>
         </li>
         <li i18n>
-            <a>Projetos</a>
+            <a href="#projects">Projetos</a>
         </li>
         <li i18n>
-            <a>Contato</a>
+            <a href="#contact">Contato</a>
         </li>
     </ul>
 

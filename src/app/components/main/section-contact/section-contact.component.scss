@@ -1,0 +1,12 @@
+.main {
+    background-color: var(--color-5);
+    --itemWidth: 8em;
+    --gap: 4em;
+    min-height: 10em;
+    height: 10em;
+
+
+    .container {
+        padding: 2em;
+    }
+}

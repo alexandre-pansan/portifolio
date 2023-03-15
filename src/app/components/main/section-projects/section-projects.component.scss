@@ -1,0 +1,108 @@
+.main {
+    background-color: var(--color-4);
+    --itemWidth: 8em;
+    --gap: 4em;
+
+
+    .container {
+        padding: 2em;
+
+
+        .title {
+            width: 100%;
+            text-align: center;
+            font-size: 2em;
+            margin: 3em 0px;
+        }
+
+        .projects-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            max-width: 900px;
+            margin: 0 auto;
+            gap: 2em;
+
+            .project {
+                position: relative;
+                height: 10em;
+                width: 100%;
+                border-radius: 20px;
+                background: linear-gradient(145deg, #8fc0b1, #79a195);
+                box-shadow: 20px 20px 60px #608177,
+                    -20px -20px 60px #ace5d3;
+                overflow: hidden;
+
+                .image {
+                    position: absolute;
+
+
+                    max-width: 100%;
+                    max-height: 100%;
+
+                    img {
+                        object-fit: fill;
+                        max-height: 10em;
+                    }
+
+                    .banner {
+                        display: flex;
+                        align-self: center;
+                        width: 100%;
+                        background-color: var(--color-5);
+                    }
+                }
+
+                .description {
+                    height: 0px;
+                    width: 100%;
+                    padding: 0px 10px;
+                    backdrop-filter: blur(4px);
+                    overflow: hidden;
+                    transition: all 500ms ease;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                &:hover {
+                    .description {
+                        height: 10em;
+                        padding: 10px;
+
+
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .main {
+
+        .container {
+
+
+            .projects-container {
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 481px) {
+    .main {
+
+        .container {
+
+
+            .projects-container {
+                grid-template-columns: auto;
+            }
+        }
+    }
+}

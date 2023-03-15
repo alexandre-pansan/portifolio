@@ -19,27 +19,39 @@
     background-color: var(--color-1);
     --itemWidth: 8em;
     --gap: 4em;
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
 
     .container {
-        padding: 2em;
+        padding: 4em;
+        height: 100%;
 
         .title {
             width: 100%;
             text-align: center;
             font-size: 2em;
+            margin: 3em 0px;
         }
 
         .description {
             text-align: center;
             font-size: 1.5em;
+            margin: 3em 0px;
+        }
+
+        .tip {
+            text-align: center;
+            color: #6b6b6b;
         }
     }
 
     .skills {
         padding: 4em;
         flex-direction: row;
-        width: 100%;
         position: relative;
+        margin: 3em 0px;
+
 
         .skills-track {
             animation: scroll 20s linear infinite;
@@ -63,8 +75,8 @@
             height: 5em;
             border-radius: 20px;
             background: linear-gradient(145deg, #c0a9a3, #a18e89);
-            box-shadow: 41px 41px 82px #7c6d69,
-                -41px -41px 82px #eacfc7;
+            box-shadow: 9px 9px 18px #9c8984,
+                -9px -9px 18px #cab3ac;
 
             img {
                 position: absolute;
@@ -78,18 +90,18 @@
             }
 
             .desc {
-                position: absolute;
+                position: relative;
                 border-radius: 20px;
                 background: linear-gradient(145deg, #c0a9a3, #a18e89);
-                box-shadow: 41px 41px 82px #7c6d69,
-                    -41px -41px 82px #eacfc7;
+                box-shadow: 9px 9px 18px #9c8984,
+                    -9px -9px 18px #cab3ac;
                 padding: 1em;
                 opacity: 0;
-                min-width: 10em;
-                min-height: 6em;
-                left: -25%;
-                top: -25%;
-                transform: scale(0);
+                left: 50%;
+                top: 50%;
+                height: 200px;
+                width: 400px;
+                transform: translateX(-50%) translateY(-50%) scale(0);
                 background-color: var(--color-1);
                 transition: transform 500ms, opacity 500ms;
                 z-index: 1;
@@ -109,7 +121,7 @@
                 .desc {
                     z-index: 1;
                     opacity: 1;
-                    transform: scale(1);
+                    transform: translateX(-50%) translateY(-50%) scale(1);
 
 
                 }

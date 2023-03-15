@@ -1,1 +1,24 @@
-<p>section-projects works!</p>
+<div class="main">
+    <div class="container">
+        <div class="title" i18n>
+            Projetos
+        </div>
+        <div class="projects-container">
+            <div class="project" *ngFor="let item of projects">
+                <div class="image" *ngIf="item.path != null">
+                    <img [src]="item.path" alt="" srcset="">
+                </div>
+                <div class="image" *ngIf="item.path == null">
+                    <div class="banner">
+                        {{item.name}}
+                    </div>
+                </div>
+                <div class="description">
+                    {{item.description}}
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

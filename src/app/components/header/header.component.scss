@@ -1,11 +1,10 @@
-nav {
+.menuFull {
     position: fixed;
     width: 100%;
     backdrop-filter: blur(4px);
     top: 0;
     z-index: 999;
 
-    height: auto;
 
     a {
         cursor: pointer;
@@ -28,6 +27,7 @@ nav {
         height: 3.5em;
         padding: 0em 2em;
         max-width: 1200px;
+        transition: height 500ms linear;
 
         li {
             display: inline;
@@ -40,40 +40,54 @@ nav {
             }
         }
     }
+
 }
 
+.menuComp {
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    top: 0;
+    z-index: 999;
 
 
-@media screen and (max-width : 700px) {
-
-    .enableMenu {
-        overflow: auto;
+    a {
+        cursor: pointer;
+        user-select: none;
     }
 
-    nav {
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        height: 6em;
         align-items: center;
-        height: auto;
+    }
 
+    ul {
+        z-index: 100;
+        display: flex;
+        list-style: none;
+        gap: .5em;
+        font-size: 28px;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: flex-end;
+        align-items: center;
+        max-width: 1200px;
+        transition: height 500ms linear;
+        overflow: hidden;
+        padding: 0px;
 
-        .menu {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            height: 6rem;
+        li {
+            display: inline;
+            text-align: center;
+            flex: 0 0 auto;
+            padding: .5em;
+
+            a {
+                text-decoration: none;
+                color: var(--black);
+            }
         }
-
-        .showMenu {
-            display: flex;
-        }
-
-        ul {
-
-            flex-direction: column;
-            justify-content: flex-start;
-            margin: 0px 0px 0px 0px;
-            padding: 3rem 0px;
-            height: auto;
-        }
-
     }
 }

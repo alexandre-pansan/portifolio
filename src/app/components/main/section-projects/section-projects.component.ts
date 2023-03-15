@@ -7,4 +7,38 @@ import { Component } from '@angular/core';
 })
 export class SectionProjectsComponent {
 
+  public projects = [
+    {
+      name: 'WeGrowers',
+      path: '../../../../assets/projects/wegrowers.png',
+      description: $localize`Uma Aplicação para unir produtores a prestadores de serviço do AGRO`
+    },
+    {
+      name: $localize`Em Breve`,
+      path: null,
+      description: $localize`Esperando um novo projeto aparecer`
+    },
+    {
+      name: $localize`Em Breve`,
+      path: null,
+      description: $localize`Esperando um novo projeto aparecer`
+    },
+    {
+      name: $localize`Em Breve`,
+      path: null,
+      description: $localize`Esperando um novo projeto aparecer`
+    },
+    {
+      name: $localize`Em Breve`,
+      path: null,
+      description: $localize`Esperando um novo projeto aparecer`
+    },
+    {
+      name: $localize`Em Breve`,
+      path: null,
+      description: $localize`Esperando um novo projeto aparecer`
+    },
+
+  ]
+
 }
