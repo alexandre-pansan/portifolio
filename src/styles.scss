@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
     font-family: ruda;
-    --color-1: #B39E98;
+    --color-1: rgb(179, 158, 152);
     --color-2: #FFFFFF;
     --color-3: #FFF5F2;
     --color-4: #86B3A5;
@@ -15,6 +15,7 @@ body {
     inset: 0px;
     margin: 0px;
     background-color: var(--color-3);
+    user-select: none;
 }
 
 .container {
