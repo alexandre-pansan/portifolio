@@ -1,0 +1,47 @@
+.main {
+    background-color: var(--color-1);
+
+    .container {
+        padding: 2em;
+
+        .title {
+            width: 100%;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
+
+    .skills {
+        padding: 4em;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+
+        .skill {
+            flex: 0 0 8em;
+            position: relative;
+            width: 8em;
+            height: 5em;
+            border-radius: 20px;
+            background: linear-gradient(145deg, #c0a9a3, #a18e89);
+            box-shadow: 41px 41px 82px #7c6d69,
+                -41px -41px 82px #eacfc7;
+
+            img {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+
+                height: 50px;
+            }
+        }
+
+    }
+}

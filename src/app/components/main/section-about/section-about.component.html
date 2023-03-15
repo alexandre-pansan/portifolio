@@ -1,0 +1,19 @@
+<div class="main">
+    <div class="container">
+        <p class="title" i18n>
+            Sobre mim
+        </p>
+        <div class="description">
+            Sou formado em Engenharia da Computação e descobri minha paixão pelo desenvolvimento web. Tenho habilidades
+            em
+            HTML, CSS, JavaScript e também domino frameworks como ReactJS, Angular e VueJS. Além disso, possuo
+            experiência
+            no desenvolvimento de back-end utilizando Node.js e Java Spring Boot.
+        </div>
+        <div class="skills">
+            <div class="skill" *ngFor="let skill of skills">
+                <img [src]="skill.path" [alt]="skill.description" srcset="">
+            </div>
+        </div>
+    </div>
+</div>

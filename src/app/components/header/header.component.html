@@ -1,0 +1,25 @@
+<nav>
+    <a class="menu" (click)="clickMenu()">
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 24.5H42" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M8 13H42M8 36H42" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
+    </a>
+    <ul *ngIf="menuOpen">
+        <li i18n>
+            <a>Início</a>
+
+        </li>
+        <li i18n>
+            <a>Sobre mim</a>
+        </li>
+        <li i18n>
+            <a>Projetos</a>
+        </li>
+        <li i18n>
+            <a>Contato</a>
+        </li>
+    </ul>
+
+</nav>
