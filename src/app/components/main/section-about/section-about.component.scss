@@ -1,5 +1,24 @@
+@mixin gradient {
+    background: linear-gradient(to right, rgba(179, 158, 152, 1) 0%, rgba(179, 158, 152, 0) 100%);
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-20%);
+    }
+
+    100% {
+        transform: translateX(-70%)
+    }
+}
+
+
 .main {
     background-color: var(--color-1);
+    --itemWidth: 8em;
+    --gap: 4em;
 
     .container {
         padding: 2em;
@@ -18,15 +37,29 @@
 
     .skills {
         padding: 4em;
-        display: flex;
         flex-direction: row;
-        gap: 20px;
+        width: 100%;
+        position: relative;
+
+        .skills-track {
+            animation: scroll 20s linear infinite;
+            display: flex;
+            gap: var(--gap);
+            width: calc((var(--gap) + var(--itemWidth)) * 16);
+
+            &:hover {
+
+                animation-play-state: paused;
+
+            }
+        }
+
 
 
         .skill {
-            flex: 0 0 8em;
+            flex: 0 0 var(--itemWidth);
             position: relative;
-            width: 8em;
+            width: var(--itemWidth);
             height: 5em;
             border-radius: 20px;
             background: linear-gradient(145deg, #c0a9a3, #a18e89);
@@ -37,11 +70,51 @@
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                transform: translateX(-50%) translateY(-50%);
-
+                transform: translateX(-50%) translateY(-50%) scale(1);
                 height: 50px;
+                opacity: 1;
+                transition: transform 500ms, opacity 500ms;
+
+            }
+
+            .desc {
+                position: absolute;
+                border-radius: 20px;
+                background: linear-gradient(145deg, #c0a9a3, #a18e89);
+                box-shadow: 41px 41px 82px #7c6d69,
+                    -41px -41px 82px #eacfc7;
+                padding: 1em;
+                opacity: 0;
+                min-width: 10em;
+                min-height: 6em;
+                left: -25%;
+                top: -25%;
+                transform: scale(0);
+                background-color: var(--color-1);
+                transition: transform 500ms, opacity 500ms;
+                z-index: 1;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+
+            &:hover {
+                img {
+                    transform: translateX(-40%) translateY(-40%) scale(2);
+                    opacity: 0;
+                }
+
+
+                .desc {
+                    z-index: 1;
+                    opacity: 1;
+                    transform: scale(1);
+
+
+                }
+
             }
         }
-
     }
 }

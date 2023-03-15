@@ -14,27 +14,27 @@ export class SectionAboutComponent {
     },
     {
       path: '../../../../assets/logos/css3.svg',
-      description: "Um framework Javascript"
+      description: "O que deixa tudo mais viadao"
     }
     ,
     {
       path: '../../../../assets/logos/html5.svg',
-      description: "Um framework Javascript"
+      description: "o que da estrutura para a viaagem toda"
     }
     ,
     {
       path: '../../../../assets/logos/javascript.svg',
-      description: "Um framework Javascript"
+      description: "O cara que comanda tudo"
     }
     ,
     {
       path: '../../../../assets/logos/react.svg',
-      description: "Um framework Javascript"
+      description: "Um framework chato pra caralho"
     }
     ,
     {
       path: '../../../../assets/logos/vue.svg',
-      description: "Um framework Javascript"
+      description: "Um framework menos chato mas esquisito"
     }
     ,
     {
@@ -44,7 +44,7 @@ export class SectionAboutComponent {
     ,
     {
       path: '../../../../assets/logos/springboot.svg',
-      description: "Um framework Javascript"
+      description: "Um framework Java"
     }
   ]
 

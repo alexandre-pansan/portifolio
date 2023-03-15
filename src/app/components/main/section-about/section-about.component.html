@@ -10,10 +10,31 @@
             experiência
             no desenvolvimento de back-end utilizando Node.js e Java Spring Boot.
         </div>
+        <p>
+            /* Passe o mouse nos items abaixo para saber mais */
+        </p>
         <div class="skills">
-            <div class="skill" *ngFor="let skill of skills">
-                <img [src]="skill.path" [alt]="skill.description" srcset="">
+            <div class="skills-track">
+                <div class="skill" *ngFor="let skill of skills">
+                    <img [src]="skill.path" [alt]="skill.description">
+                    <div class="desc">
+                        {{skill.description}}
+                    </div>
+                </div>
+                <div class="skill" *ngFor="let skill of skills">
+                    <img [src]="skill.path" [alt]="skill.description">
+                    <div class="desc">
+                        {{skill.description}}
+                    </div>
+                </div>
+                <div class="skill" *ngFor="let skill of skills">
+                    <img [src]="skill.path" [alt]="skill.description">
+                    <div class="desc">
+                        {{skill.description}}
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
