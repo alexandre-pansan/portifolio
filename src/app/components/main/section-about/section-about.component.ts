@@ -13,35 +13,35 @@ export class SectionAboutComponent {
   public skills = [
     {
       path: 'assets/logos/html5.svg',
-      description: $localize`HTML5: A linguagem de marcação que é usada para estruturar e exibir conteúdo na web. O HTML5 é a versão mais recente do HTML e oferece recursos mais avançados, como tags semânticas, suporte para multimídia e APIs para aplicativos web.`
+      description: 'HTML5: Hypertext Markup Language version 5 is the latest version of HTML that provides a structure for creating web pages and applications. It includes new features like multimedia support, semantic tags, and canvas for creating animations and graphics.'
     },
     {
       path: 'assets/logos/css3.svg',
-      description: $localize`CSS3: A linguagem de estilo que é usada para definir a aparência dos elementos HTML. O CSS3 oferece recursos mais avançados, como gradientes, sombras, transições e animações.`
+      description: 'CSS3: Cascading Style Sheets version 3 is the latest version of CSS that provides styling and layout for web pages and applications. It includes new features like transitions, animations, and responsive design.'
     },
     {
       path: 'assets/logos/javascript.svg',
-      description: $localize`JavaScript: A linguagem de programação que é usada para adicionar interatividade e dinamismo aos elementos HTML e CSS de uma página web. O JavaScript é amplamente utilizado para criar aplicativos web, jogos e outras soluções interativas na web.`
+      description: `JavaScript: A programming language used to create dynamic and interactive web pages and applications. It's commonly used for client-side scripting, but can also be used on the server-side with the help of frameworks like NodeJS.`
     },
     {
       path: 'assets/logos/angular.svg',
-      description: $localize`Angular: Um framework de JavaScript de código aberto que é usado para criar aplicativos web de uma única página (SPA) complexos e escaláveis. O Angular oferece recursos avançados, como injeção de dependência, vinculação de dados bidirecional e detecção de alterações.`
+      description: `Angular: A TypeScript-based front-end web application framework developed by Google. It's used for building complex and dynamic single-page applications (SPAs).`
     },
     {
       path: 'assets/logos/react.svg',
-      description: $localize`ReactJS: Um framework de JavaScript de código aberto que é usado para criar interfaces de usuário complexas e interativas em aplicativos web. O ReactJS usa uma abordagem baseada em componentes para criar interfaces de usuário reutilizáveis e escaláveis.`
+      description: `ReactJS: A JavaScript library developed by Facebook for building user interfaces. It's used for building reusable UI components and is commonly used for building SPAs.`
     },
     {
       path: 'assets/logos/vue.svg',
-      description: $localize`VueJS: Um framework de JavaScript de código aberto que é usado para criar interfaces de usuário interativas e escaláveis em aplicativos web. O VueJS é conhecido por sua simplicidade e facilidade de aprendizado, e é amplamente utilizado em aplicativos web de pequeno a médio porte.`
+      description: `VueJS: A progressive JavaScript framework used for building user interfaces and single-page applications. It's known for its simplicity and ease of use, and has a growing community of developers.`
     },
     {
       path: 'assets/logos/nodejs.svg',
-      description: $localize`Node.js: Uma plataforma de desenvolvimento em tempo de execução que permite aos desenvolvedores executar o JavaScript no lado do servidor. O Node.js é amplamente utilizado para criar aplicativos web escaláveis e de alto desempenho.`
+      description: `NodeJS: A JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to run JavaScript code outside of a web browser. It's commonly used for server-side scripting and building scalable network applications.`
     },
     {
       path: 'assets/logos/springboot.svg',
-      description: $localize`Spring Boot: Um framework de desenvolvimento de aplicativos Java que é usado para criar aplicativos web escaláveis e de alto desempenho. O Spring Boot oferece recursos avançados, como configuração automática, contêiner embutido e dependências gerenciadas, o que facilita a criação de aplicativos web complexos em Java.`
+      description: `SpringBoot: A popular Java-based framework for building web applications and microservices. It provides a simple and efficient way to develop production-ready applications quickly and easily.`
     }
   ]
 
