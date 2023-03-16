@@ -26,17 +26,17 @@
 
     </a>
     <ul [@toggleClick]="menuOpen">
-        <li i18n>
+        <li (click)="clickMenu()" i18n>
             <a href="#first">Início</a>
 
         </li>
-        <li i18n>
+        <li (click)="clickMenu()" i18n>
             <a href="#about">Sobre mim</a>
         </li>
-        <li i18n>
+        <li (click)="clickMenu()" i18n>
             <a href="#projects">Projetos</a>
         </li>
-        <li i18n>
+        <li (click)="clickMenu()" i18n>
             <a href="#contact">Contato</a>
         </li>
     </ul>
