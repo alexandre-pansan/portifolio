@@ -10,7 +10,7 @@ export class SectionProjectsComponent {
   public projects = [
     {
       name: 'WeGrowers',
-      path: '../../../../assets/projects/wegrowers.png',
+      path: 'assets/projects/wegrowers.png',
       description: $localize`Uma Aplicação para unir produtores a prestadores de serviço do AGRO`
     },
     {
