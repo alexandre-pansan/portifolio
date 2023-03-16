@@ -2,32 +2,213 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="pt-BR" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="792403187175631894" datatype="html">
-        <source> Home </source>
+      <trans-unit id="5043503981964323037" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#first&quot;&gt;"/>Início<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">3,5</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7747441093150989725" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#about&quot;&gt;"/>Sobre mim<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="930183566658712606" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#projects&quot;&gt;"/>Projetos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68876449330851318" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#contact&quot;&gt;"/>Contato<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="176365395873895854" datatype="html">
-        <source> About me </source>
+        <source> Sobre mim </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">6,8</context>
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1774393063466608370" datatype="html">
+        <source> I have a degree in Computer Engineering and discovered my passion for web development, utilizing HTML, CSS, JS, and frameworks such as ReactJS, Angular, and VueJS. I also have experience in developing back-end applications using Node.js and Java Spring Boot.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.html</context>
+          <context context-type="linenumber">6,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3780645887336251784" datatype="html">
+        <source>HTML5: Hypertext Markup Language version 5 is the latest version of HTML that provides a structure for creating web pages and applications. It includes new features like multimedia support, semantic tags, and canvas for creating animations and graphics.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2872295335197991946" datatype="html">
+        <source>CSS3: Cascading Style Sheets version 3 is the latest version of CSS that provides styling and layout for web pages and applications. It includes new features like transitions, animations, and responsive design.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3400691401762030332" datatype="html">
+        <source>JavaScript: A programming language used to create dynamic and interactive web pages and applications. It's commonly used for client-side scripting, but can also be used on the server-side with the help of frameworks like NodeJS.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5611606880748003158" datatype="html">
+        <source>Angular: A TypeScript-based front-end web application framework developed by Google. It's used for building complex and dynamic single-page applications (SPAs).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7292011238469881641" datatype="html">
+        <source>ReactJS: A JavaScript library developed by Facebook for building user interfaces. It's used for building reusable UI components and is commonly used for building SPAs.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2519914945308476394" datatype="html">
+        <source>VueJS: A progressive JavaScript framework used for building user interfaces and single-page applications. It's known for its simplicity and ease of use, and has a growing community of developers.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9197175574012132984" datatype="html">
+        <source>NodeJS: A JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to run JavaScript code outside of a web browser. It's commonly used for server-side scripting and building scalable network applications.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3013619972654544445" datatype="html">
+        <source>SpringBoot: A popular Java-based framework for building web applications and microservices. It provides a simple and efficient way to develop production-ready applications quickly and easily.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1236061678414703716" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-contact/section-contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1178700894119628402" datatype="html">
+        <source>contact E-mail : <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>alexpjunior@terra.com.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-contact/section-contact.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8481145536268681132" datatype="html">
+        <source>Developed by Alexandre Pansan Junior</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-contact/section-contact.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1922903601576580376" datatype="html">
+        <source> Hello there, i am </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-first/section-first.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1829909615558850932" datatype="html">
+        <source> Developer Front-End </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-first/section-first.component.html</context>
+          <context context-type="linenumber">10,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8703630898404904637" datatype="html">
         <source> Projects </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">9,11</context>
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.html</context>
+          <context context-type="linenumber">3,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2824618769663315632" datatype="html">
-        <source> Contact </source>
+      <trans-unit id="2568617316495189350" datatype="html">
+        <source>An Mobile app to connect farm owners to service providers</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">12,14</context>
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3711899634834004287" datatype="html">
+        <source>Soon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4088452032674273202" datatype="html">
+        <source>Waiting for a new project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
     </body>

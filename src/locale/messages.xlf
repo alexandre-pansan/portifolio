@@ -3,31 +3,47 @@
   <file source-language="pt-BR" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="5043503981964323037" datatype="html">
-        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Início<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#first&quot;&gt;"/>Início<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7747441093150989725" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#about&quot;&gt;"/>Sobre mim<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="930183566658712606" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#projects&quot;&gt;"/>Projetos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="7747441093150989725" datatype="html">
-        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Sobre mim<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="930183566658712606" datatype="html">
-        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Projetos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="68876449330851318" datatype="html">
-        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Contato<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#contact&quot;&gt;"/>Contato<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="176365395873895854" datatype="html">
@@ -37,74 +53,162 @@
           <context context-type="linenumber">3,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5716305963872115725" datatype="html">
+      <trans-unit id="1774393063466608370" datatype="html">
+        <source> Sou formado em Engenharia da Computação e descobri minha paixão pelo desenvolvimento web. Tenho habilidades em HTML, CSS, JavaScript e também domino frameworks como ReactJS, Angular e VueJS. Além disso, possuo experiência no desenvolvimento de back-end utilizando Node.js e Java Spring Boot. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.html</context>
+          <context context-type="linenumber">6,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3780645887336251784" datatype="html">
         <source>HTML5: A linguagem de marcação que é usada para estruturar e exibir conteúdo na web. O HTML5 é a versão mais recente do HTML e oferece recursos mais avançados, como tags semânticas, suporte para multimídia e APIs para aplicativos web.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5222334649138925006" datatype="html">
+      <trans-unit id="2872295335197991946" datatype="html">
         <source>CSS3: A linguagem de estilo que é usada para definir a aparência dos elementos HTML. O CSS3 oferece recursos mais avançados, como gradientes, sombras, transições e animações.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7378583881272081016" datatype="html">
+      <trans-unit id="3400691401762030332" datatype="html">
         <source>JavaScript: A linguagem de programação que é usada para adicionar interatividade e dinamismo aos elementos HTML e CSS de uma página web. O JavaScript é amplamente utilizado para criar aplicativos web, jogos e outras soluções interativas na web.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2696813400818378470" datatype="html">
+      <trans-unit id="5611606880748003158" datatype="html">
         <source>Angular: Um framework de JavaScript de código aberto que é usado para criar aplicativos web de uma única página (SPA) complexos e escaláveis. O Angular oferece recursos avançados, como injeção de dependência, vinculação de dados bidirecional e detecção de alterações.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="175967589823022341" datatype="html">
+      <trans-unit id="7292011238469881641" datatype="html">
         <source>ReactJS: Um framework de JavaScript de código aberto que é usado para criar interfaces de usuário complexas e interativas em aplicativos web. O ReactJS usa uma abordagem baseada em componentes para criar interfaces de usuário reutilizáveis e escaláveis.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8163090537409348270" datatype="html">
+      <trans-unit id="2519914945308476394" datatype="html">
         <source>VueJS: Um framework de JavaScript de código aberto que é usado para criar interfaces de usuário interativas e escaláveis em aplicativos web. O VueJS é conhecido por sua simplicidade e facilidade de aprendizado, e é amplamente utilizado em aplicativos web de pequeno a médio porte.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="790247145627220817" datatype="html">
+      <trans-unit id="9197175574012132984" datatype="html">
         <source>Node.js: Uma plataforma de desenvolvimento em tempo de execução que permite aos desenvolvedores executar o JavaScript no lado do servidor. O Node.js é amplamente utilizado para criar aplicativos web escaláveis e de alto desempenho.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7489564997507084730" datatype="html">
+      <trans-unit id="3013619972654544445" datatype="html">
         <source>Spring Boot: Um framework de desenvolvimento de aplicativos Java que é usado para criar aplicativos web escaláveis e de alto desempenho. O Spring Boot oferece recursos avançados, como configuração automática, contêiner embutido e dependências gerenciadas, o que facilita a criação de aplicativos web complexos em Java.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-about/section-about.component.ts</context>
           <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="1236061678414703716" datatype="html">
+        <source>Contato</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-contact/section-contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1178700894119628402" datatype="html">
+        <source>E-mail de contato : <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>alexpjunior@terra.com.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-contact/section-contact.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8481145536268681132" datatype="html">
+        <source>Desenvolvido por Alexandre Pansan Junior</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-contact/section-contact.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="1922903601576580376" datatype="html">
         <source> Olá, eu sou </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-first/section-first.component.html</context>
-          <context context-type="linenumber">3,5</context>
+          <context context-type="linenumber">4,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1829909615558850932" datatype="html">
         <source> Desenvolvedor Front-End </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/main/section-first/section-first.component.html</context>
-          <context context-type="linenumber">9,11</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8703630898404904637" datatype="html">
+        <source> Projetos </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2568617316495189350" datatype="html">
+        <source>Uma Aplicação para unir produtores a prestadores de serviço do AGRO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3711899634834004287" datatype="html">
+        <source>Em Breve</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4088452032674273202" datatype="html">
+        <source>Esperando um novo projeto aparecer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/section-projects/section-projects.component.ts</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
     </body>
