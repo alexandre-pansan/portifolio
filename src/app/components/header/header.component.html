@@ -1,17 +1,16 @@
 <nav class="menuFull" *ngIf="isFullMenu" [@inOutAnimation]>
     <ul>
-        <li i18n>
-            <a href="#first">Início</a>
-
+        <li>
+            <a i18n href="#first">Home</a>
         </li>
-        <li i18n>
-            <a href="#about">Sobre mim</a>
+        <li>
+            <a i18n href="#about">About me</a>
         </li>
-        <li i18n>
-            <a href="#projects">Projetos</a>
+        <li>
+            <a i18n href="#projects">Projects</a>
         </li>
-        <li i18n>
-            <a href="#contact">Contato</a>
+        <li>
+            <a i18n href="#contact">Contact</a>
         </li>
     </ul>
 
@@ -26,18 +25,17 @@
 
     </a>
     <ul [@toggleClick]="menuOpen">
-        <li (click)="clickMenu()" i18n>
-            <a href="#first">Início</a>
-
+        <li (click)="clickMenu()">
+            <a i18n href="#first">Home</a>
         </li>
-        <li (click)="clickMenu()" i18n>
-            <a href="#about">Sobre mim</a>
+        <li (click)="clickMenu()">
+            <a i18n href="#about">About me</a>
         </li>
-        <li (click)="clickMenu()" i18n>
-            <a href="#projects">Projetos</a>
+        <li (click)="clickMenu()">
+            <a i18n href="#projects">Projects</a>
         </li>
-        <li (click)="clickMenu()" i18n>
-            <a href="#contact">Contato</a>
+        <li (click)="clickMenu()">
+            <a i18n href="#contact">Contact</a>
         </li>
     </ul>
 

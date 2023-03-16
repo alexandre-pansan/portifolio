@@ -11,32 +11,32 @@ export class SectionProjectsComponent {
     {
       name: 'WeGrowers',
       path: 'assets/projects/wegrowers.png',
-      description: $localize`Uma Aplicação para unir produtores a prestadores de serviço do AGRO`
+      description: `An mobile APP to connect farm owners and workers with service providers`
     },
     {
-      name: $localize`Em Breve`,
+      name: `Soon`,
       path: null,
-      description: $localize`Esperando um novo projeto aparecer`
+      description: `Space waiting for a new project`
     },
     {
-      name: $localize`Em Breve`,
+      name: `Soon`,
       path: null,
-      description: $localize`Esperando um novo projeto aparecer`
+      description: `Space waiting for a new project`
     },
     {
-      name: $localize`Em Breve`,
+      name: `Soon`,
       path: null,
-      description: $localize`Esperando um novo projeto aparecer`
+      description: `Space waiting for a new project`
     },
     {
-      name: $localize`Em Breve`,
+      name: `Soon`,
       path: null,
-      description: $localize`Esperando um novo projeto aparecer`
+      description: `Space waiting for a new project`
     },
     {
-      name: $localize`Em Breve`,
+      name: `Soon`,
       path: null,
-      description: $localize`Esperando um novo projeto aparecer`
+      description: `Space waiting for a new project`
     },
 
   ]
