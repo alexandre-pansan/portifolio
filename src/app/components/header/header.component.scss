@@ -36,13 +36,14 @@
             flex: 0 0 auto;
             transition: all 250ms ease;
 
+
             &:hover {
                 transform: scale(1.1);
             }
 
             a {
                 text-decoration: none;
-                color: var(--black);
+                color: inherit;
             }
         }
     }
@@ -92,7 +93,7 @@
 
             a {
                 text-decoration: none;
-                color: var(--black);
+                color: inherit;
             }
         }
     }

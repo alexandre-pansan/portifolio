@@ -15,10 +15,11 @@ html,
 body {
     inset: 0px;
     margin: 0px;
-    background-color: var(--color-3);
+    //background-color: var(--color-3);
     user-select: none;
     scroll-behavior: smooth;
     //scroll-padding-top: 6em;
+    color: var(--color-1);
 }
 
 .container {
@@ -27,6 +28,7 @@ body {
     box-sizing: border-box;
     min-height: 100vh;
     height: 100vh;
+    z-index: 1;
 
     .title {
         width: 100%;

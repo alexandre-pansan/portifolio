@@ -10,7 +10,7 @@
 
 
 .main {
-    background-color: var(--color-1);
+    //background-color: var(--color-1);
     --itemWidth: 8em;
     --gap: 4em;
     min-height: 100%;
@@ -63,8 +63,7 @@
             height: 5em;
             border-radius: 20px;
             background: linear-gradient(145deg, #ffffff, #e6e6e6);
-            box-shadow: 27px 27px 54px #8a8a8a,
-                -27px -27px 54px #ffffff;
+
 
             img {
                 position: absolute;
@@ -81,8 +80,7 @@
                 position: relative;
                 border-radius: 20px;
                 background: linear-gradient(145deg, #ffffff, #e6e6e6);
-                box-shadow: 27px 27px 54px #8a8a8a,
-                    -27px -27px 54px #ffffff;
+                color: var(--black);
                 padding: 1em;
                 opacity: 0;
                 left: 50%;
@@ -114,6 +112,22 @@
 
                 }
 
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .main {
+        .container {
+            .skills {
+                .skills-track {
+                    .skill {
+                        .desc {
+                            width: 90vw;
+                        }
+                    }
+                }
             }
         }
     }
