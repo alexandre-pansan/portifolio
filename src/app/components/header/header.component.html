@@ -1,7 +1,7 @@
 <nav class="menuFull" *ngIf="isFullMenu" [@inOutAnimation]>
     <ul>
         <li>
-            <a i18n href="#first">Home</a>
+            <a i18n href="#home">Home</a>
         </li>
         <li>
             <a i18n href="#about">About me</a>
@@ -26,7 +26,7 @@
     </a>
     <ul [@toggleClick]="menuOpen">
         <li (click)="clickMenu()">
-            <a i18n href="#first">Home</a>
+            <a i18n href="#home">Home</a>
         </li>
         <li (click)="clickMenu()">
             <a i18n href="#about">About me</a>

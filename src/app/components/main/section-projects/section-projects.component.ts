@@ -11,7 +11,7 @@ export class SectionProjectsComponent {
     {
       name: 'WeGrowers',
       path: 'assets/projects/wegrowers.png',
-      description: `An mobile APP to connect farm owners and workers with service providers`
+      description: `A mobile APP to connect farm owners and workers to related service providers`
     },
     {
       name: `Soon`,
